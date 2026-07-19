@@ -1,0 +1,24 @@
+class Solution {
+    public int numberOfSpecialChars(String word) {
+        int count = 0;
+        for(char ch='a'; ch<='z'; ch++) {
+            int lastLower = -1;
+            int firstUpper = -1;
+            for(int i=0; i<word.length(); i++) {
+                char current = word.charAt(i);
+                if(current == ch) {
+                    lastLower = i;
+                }
+                if(current == Character.toUpperCase(ch)) {
+                    if(firstUpper == -1) {
+                        firstUpper = i;
+                    }
+                }
+            }
+            if(lastLower != -1 && firstUpper != -1 && lastLower < firstUpper) {
+               count++;
+            }
+        }
+        return count;
+    }
+}
