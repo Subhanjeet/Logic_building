@@ -1,15 +1,15 @@
 class Solution {
     public boolean isHappy(int n) {
-        HashSet<Integer> seen = new HashSet<>();
+        HashSet<Integer> scan = new HashSet<>();
         while(n != 1){
-            if(seen.contains(n)){
+            if(scan.contains(n)){
                 return false;
             }
-            seen.add(n);
+            scan.add(n);
             int sum = 0;
-            while(n > 0){
-                int digit = n % 10;
-                sum = sum + (digit * digit);
+            while(n>0){
+                int digit = n%10;
+                sum = sum + (digit*digit);
                 n /= 10;
             }
             n = sum;
