@@ -1,7 +1,8 @@
 class Solution {
     public int totalFruit(int[] fruits) {
         int n = fruits.length;
-        int left = 0, maxLen = 0;
+        int left = 0;
+        int maxLen = 0;
         Map<Integer, Integer> freq = new HashMap<>();
 
         for (int right = 0; right < n; right++) {
@@ -18,5 +19,4 @@ class Solution {
         }
         return maxLen;
     }
-
 }
