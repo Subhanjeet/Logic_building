@@ -12,3 +12,11 @@ class Solution {
         return stack.toString();
     }
 }
+
+//create stack
+//loop through every char
+//get current char
+//check whether if, stack is not empty and get the top char and compare it with current char
+//if satisfy than, remove the top char
+//otherwise add the char
+//return final result
