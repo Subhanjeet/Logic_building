@@ -34,14 +34,14 @@ jobs:
           - Do NOT touch anything inside JAVA/.
           - Do NOT touch anything inside PYTHON/.
           - Do NOT touch "Max Sum Subarray of size K".
-          - Do NOT modify the root README.md.
+          - Do NOT modify the root README.md or ANY problem-folder README.md.
           - Do NOT modify any .java file.
-          - Use the existing README file in each LeetCode problem folder. If the folder has Readme.md, update Readme.md. If it has README.md, update README.md. Never create both files in the same folder. Only create README.md when neither exists.
+          - Create or replace exactly Explanation.md inside each LeetCode problem folder. NEVER modify, replace, rename, or delete README.md. README.md is managed by LeetSink and must remain untouched.
 
           TASK:
-          For every matching LeetCode folder, inspect the actual Java solution and create/update that folder README.md.
+          For every matching LeetCode folder, inspect the actual Java solution and create/update that folder Explanation.md.
 
-          REQUIRED README FORMAT:
+          REQUIRED Explanation.md FORMAT:
 
           # <problem number>. <problem title>
 
@@ -86,21 +86,21 @@ jobs:
           - Do not add roadmap sections.
           - Do not add unrelated theory.
           - Do not add extra sections beyond the required format.
-          - If README.md or Readme.md already exists, replace/update that existing file with this format. Never create a second README file with different capitalization.
+          - If Explanation.md already exists, replace/update it with this format.
           - Duplicate LeetCode folders should each receive their own README because each contains actual code.
           - Process all matching folders, not only the latest changed folder.
           - Do not commit or push; the workflow handles that.'             -s             --model=gpt-5.3-codex             --allow-tool=write             --no-ask-user
 
-      - name: Commit explanations
+      - name: Commit Explanation.md files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          if git diff --quiet -- '*/README.md'; then
-            echo "No LeetCode README changes."
+          if git diff --quiet -- '*/Explanation.md'; then
+            echo "No LeetCode Explanation.md changes."
             exit 0
           fi
 
-          git add -- '*/README.md'
+          git add -- '*/Explanation.md'
           git commit -m "docs: add LeetCode code explanations"
           git push
