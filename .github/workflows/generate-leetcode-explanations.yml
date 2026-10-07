@@ -89,7 +89,7 @@ jobs:
           - If Explanation.md already exists, replace/update it with this format.
           - Duplicate LeetCode folders should each receive their own README because each contains actual code.
           - Process all matching folders, not only the latest changed folder.
-          - Do not commit or push; the workflow handles that.'             -s             --model=gpt-5.3-codex             --allow-tool=write             --no-ask-user
+          - Do not commit or push; the workflow handles that.'             -s             --allow-tool=write             --no-ask-user
 
       - name: Commit Explanation.md files
         run: |
