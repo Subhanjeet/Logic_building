@@ -89,7 +89,7 @@ jobs:
           - If README.md or Readme.md already exists, replace/update that existing file with this format. Never create a second README file with different capitalization.
           - Duplicate LeetCode folders should each receive their own README because each contains actual code.
           - Process all matching folders, not only the latest changed folder.
-          - Do not commit or push; the workflow handles that.'             -s             --model=gpt-5.4             --allow-tool=write             --no-ask-user
+          - Do not commit or push; the workflow handles that.'             -s             --model=gpt-5.3-codex             --allow-tool=write             --no-ask-user
 
       - name: Commit explanations
         run: |
