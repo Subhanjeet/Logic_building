@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "**/*.java"
+      - ".github/workflows/generate-leetcode-explanations.yml"
   workflow_dispatch:
 
 permissions:
@@ -19,34 +20,28 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v7
-        with:
-          node-version: 22
-
       - name: Install GitHub Copilot CLI
         run: npm install -g @github/copilot
 
-      - name: Generate LeetCode README files
+      - name: Generate explanations
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          COPILOT_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          copilot -p 'Work only on the LeetCode-style problem folders at the repository root.
+          copilot -p 'Work only on LeetCode-style problem folders at the repository root.
 
-          IMPORTANT SCOPE:
+          SCOPE:
           - Include only root-level folders whose name starts with a LeetCode problem number and that contain a Java solution file.
-          - Include folders such as "1-Two-Sum", "739-daily-temperatures", "56-merge-intervals", etc.
           - Do NOT touch anything inside JAVA/.
           - Do NOT touch anything inside PYTHON/.
           - Do NOT touch "Max Sum Subarray of size K".
           - Do NOT modify the root README.md.
-          - Do NOT modify any .java source file.
-          - Only create or replace README.md inside the individual LeetCode problem folders.
+          - Do NOT modify any .java file.
+          - Only create or replace README.md inside individual LeetCode problem folders.
 
           TASK:
-          For EVERY included LeetCode problem folder, inspect the actual Java solution and create/update that folder's README.md.
+          For every matching LeetCode folder, inspect the actual Java solution and create/update that folder README.md.
 
-          The README.md must follow exactly this structure:
+          REQUIRED README FORMAT:
 
           # <problem number>. <problem title>
 
@@ -56,50 +51,53 @@ jobs:
 
           ## Code
 
-          Copy the exact Java solution currently present in the folder. Do not change the code.
+          Copy the exact Java solution from the folder. Do not change the code.
 
           ## Code Explanation
 
-          Explain the code line by line in very simple language, like a beginner-friendly ChatGPT explanation. For every meaningful line or small group of directly related lines:
-          - show the code line in inline code
-          - explain exactly what it does
+          Explain the actual Java code line by line in very simple beginner-friendly language.
+          For every meaningful line or small group of directly related lines:
+          - show the exact code line in inline code
+          - explain what it does
           - explain why it is needed
-          - do not invent behavior that the code does not perform
+          - stay faithful to the actual code
+          - do not invent behavior
 
           ## Logic
 
-          Explain the main idea/pattern in simple words before the dry run.
+          Explain the main idea and DSA pattern in simple words.
 
           ## Dry Run
 
-          Give one short, concrete dry run using a small example. Show the important variable changes step by step.
+          Give one short concrete example and show the important variable changes step by step.
 
           ## Time Complexity
 
-          State the Big-O time complexity and explain why.
+          Give Big-O time complexity and explain why.
 
           ## Space Complexity
 
-          State the Big-O space complexity and explain why.
+          Give Big-O space complexity and explain why.
 
           RULES:
-          - Base everything on the actual Java code in the folder.
-          - Keep the explanation simple and direct.
-          - Do not add "next problems", recommendations, roadmaps, or unrelated theory.
-          - Do not add extra sections.
-          - If the folder already has a README.md, replace its old explanation with this format.
-          - If duplicate folders contain the same LeetCode problem, still create/update README.md in BOTH folders because both contain actual code.
-          - Preserve the exact source code.
-          - Work through all matching folders, not just the folder changed in the latest commit.
-          - Do not commit or push anything yourself; the workflow will do that after this command.'             --model=gpt-5.4             --allow-tool='write(README.md)'             --available-tools='view,glob,grep,create,edit'             --no-ask-user
+          - Keep explanations simple and direct, like a beginner-friendly ChatGPT explanation.
+          - Do not add next problems.
+          - Do not add recommendations.
+          - Do not add roadmap sections.
+          - Do not add unrelated theory.
+          - Do not add extra sections beyond the required format.
+          - If README.md already exists, replace/update it with this format.
+          - Duplicate LeetCode folders should each receive their own README because each contains actual code.
+          - Process all matching folders, not only the latest changed folder.
+          - Do not commit or push; the workflow handles that.'             -s             --model=gpt-5.4             --allow-tool=write             --no-ask-user
 
-      - name: Commit generated explanations
+      - name: Commit explanations
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          if git diff --quiet -- README.md '*/README.md'; then
-            echo "No explanation changes."
+          if git diff --quiet -- '*/README.md'; then
+            echo "No LeetCode README changes."
             exit 0
           fi
 
