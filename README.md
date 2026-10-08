@@ -355,10 +355,12 @@ Only problems that have a Java solution in this repository are listed below.
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/Subhanjeet/Logic_building/tree/master/0387-first-unique-character-in-a-string) |
+| [1189-maximum-number-of-balloons](https://github.com/Subhanjeet/Logic_building/tree/master/1189-maximum-number-of-balloons) |
 ## String
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/Subhanjeet/Logic_building/tree/master/0387-first-unique-character-in-a-string) |
+| [1189-maximum-number-of-balloons](https://github.com/Subhanjeet/Logic_building/tree/master/1189-maximum-number-of-balloons) |
 ## Queue
 |  |
 | ------- |
@@ -367,4 +369,5 @@ Only problems that have a Java solution in this repository are listed below.
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/Subhanjeet/Logic_building/tree/master/0387-first-unique-character-in-a-string) |
+| [1189-maximum-number-of-balloons](https://github.com/Subhanjeet/Logic_building/tree/master/1189-maximum-number-of-balloons) |
 <!---LeetCode Topics End-->
