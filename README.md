@@ -159,6 +159,7 @@ Only problems that have a Java solution in this repository are listed below.
 | [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | 🟢 Easy | [Java](0387-first-unique-character-in-a-string/0387-first-unique-character-in-a-string.java) |
 | [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | 🟢 Easy | [Java](448-find-all-numbers-disappeared-in-an-array/find-all-numbers-disappeared-in-an-array.java) |
 | [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/) | 🟢 Easy | [Java](645-set-mismatch/set-mismatch.java) |
+| [1297. Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | 🟢 Easy | [Java](1189-maximum-number-of-balloons/1189-maximum-number-of-balloons.java) |
 | [1482. How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | 🟢 Easy | [Java](1482-how-many-numbers-are-smaller-than-the-current-number/how-many-numbers-are-smaller-than-the-current-number.java) |
 | [4321. Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | [Java](3945.%20Digit%20Frequency%20Score/Digit.java) |
 
