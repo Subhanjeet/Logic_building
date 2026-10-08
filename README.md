@@ -347,3 +347,23 @@ Only problems that have a Java solution in this repository are listed below.
 - [mediaCatalogue.py](PYTHON/MiniProjects_by_fcc/mediaCatalogue.py)
 - [medicalRecordsValidationSystem.py](PYTHON/MiniProjects_by_fcc/medicalRecordsValidationSystem.py)
 - [numberGussingGame.py](PYTHON/MiniProjects_by_fcc/numberGussingGame.py)
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Hash Table
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/Subhanjeet/Logic_building/tree/master/0387-first-unique-character-in-a-string) |
+## String
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/Subhanjeet/Logic_building/tree/master/0387-first-unique-character-in-a-string) |
+## Queue
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/Subhanjeet/Logic_building/tree/master/0387-first-unique-character-in-a-string) |
+## Counting
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/Subhanjeet/Logic_building/tree/master/0387-first-unique-character-in-a-string) |
+<!---LeetCode Topics End-->
