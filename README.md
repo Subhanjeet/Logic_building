@@ -362,6 +362,7 @@ Only problems that have a Java solution in this repository are listed below.
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/Subhanjeet/Logic_building/tree/master/0020-valid-parentheses) |
 | [0383-ransom-note](https://github.com/Subhanjeet/Logic_building/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/Subhanjeet/Logic_building/tree/master/0387-first-unique-character-in-a-string) |
 | [1189-maximum-number-of-balloons](https://github.com/Subhanjeet/Logic_building/tree/master/1189-maximum-number-of-balloons) |
@@ -375,4 +376,12 @@ Only problems that have a Java solution in this repository are listed below.
 | [0383-ransom-note](https://github.com/Subhanjeet/Logic_building/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/Subhanjeet/Logic_building/tree/master/0387-first-unique-character-in-a-string) |
 | [1189-maximum-number-of-balloons](https://github.com/Subhanjeet/Logic_building/tree/master/1189-maximum-number-of-balloons) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/Subhanjeet/Logic_building/tree/master/0020-valid-parentheses) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/Subhanjeet/Logic_building/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
