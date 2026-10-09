@@ -1,0 +1,106 @@
+name: Generate LeetCode Explanations
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**/*.java"
+      - ".github/workflows/generate-leetcode-explanations.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  copilot-requests: write
+
+jobs:
+  generate-explanations:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Install GitHub Copilot CLI
+        run: npm install -g @github/copilot
+
+      - name: Generate explanations
+        env:
+          COPILOT_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          copilot -p 'Work only on LeetCode-style problem folders at the repository root.
+
+          SCOPE:
+          - Include only root-level folders whose name starts with a LeetCode problem number and that contain a Java solution file.
+          - Do NOT touch anything inside JAVA/.
+          - Do NOT touch anything inside PYTHON/.
+          - Do NOT touch "Max Sum Subarray of size K".
+          - Do NOT modify the root README.md or ANY problem-folder README.md.
+          - Do NOT modify any .java file.
+          - Create or replace exactly Explanation.md inside each LeetCode problem folder. NEVER modify, replace, rename, or delete README.md. README.md is managed by LeetSink and must remain untouched.
+
+          TASK:
+          For every matching LeetCode folder, inspect the actual Java solution and create/update that folder Explanation.md.
+
+          REQUIRED Explanation.md FORMAT:
+
+          # <problem number>. <problem title>
+
+          **LeetCode:** [<problem title>](https://leetcode.com/problems/<title-slug>/)
+
+          **Difficulty:** 🟢 Easy / 🟡 Medium / 🔴 Hard
+
+          ## Code
+
+          Copy the exact Java solution from the folder. Do not change the code.
+
+          ## Code Explanation
+
+          Explain the actual Java code line by line in very simple beginner-friendly language.
+          For every meaningful line or small group of directly related lines:
+          - show the exact code line in inline code
+          - explain what it does
+          - explain why it is needed
+          - stay faithful to the actual code
+          - do not invent behavior
+
+          ## Logic
+
+          Explain the main idea and DSA pattern in simple words.
+
+          ## Dry Run
+
+          Give one short concrete example and show the important variable changes step by step.
+
+          ## Time Complexity
+
+          Give Big-O time complexity and explain why.
+
+          ## Space Complexity
+
+          Give Big-O space complexity and explain why.
+
+          RULES:
+          - Keep explanations simple and direct, like a beginner-friendly ChatGPT explanation.
+          - Do not add next problems.
+          - Do not add recommendations.
+          - Do not add roadmap sections.
+          - Do not add unrelated theory.
+          - Do not add extra sections beyond the required format.
+          - If Explanation.md already exists, replace/update it with this format.
+          - Duplicate LeetCode folders should each receive their own README because each contains actual code.
+          - Process all matching folders, not only the latest changed folder.
+          - Do not commit or push; the workflow handles that.'             -s             --allow-tool=write             --no-ask-user
+
+      - name: Commit Explanation.md files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet -- '*/Explanation.md'; then
+            echo "No LeetCode Explanation.md changes."
+            exit 0
+          fi
+
+          git add -- '*/Explanation.md'
+          git commit -m "docs: add LeetCode code explanations"
+          git push
