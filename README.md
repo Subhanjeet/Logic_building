@@ -156,6 +156,7 @@ Only problems that have a Java solution in this repository are listed below.
 | [1. Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | [Java](1-Two-Sum/twoSum.java) |
 | [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | 🟢 Easy | [Java](13-roman-to-integer/roman-to-integer.java) |
 | [169. Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy | [Java](169-majority-element/majority-element.java) |
+| [383. Ransom Note](https://leetcode.com/problems/ransom-note/) | 🟢 Easy | [Java](0383-ransom-note/0383-ransom-note.java) |
 | [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | 🟢 Easy | [Java](0387-first-unique-character-in-a-string/0387-first-unique-character-in-a-string.java) |
 | [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | 🟢 Easy | [Java](448-find-all-numbers-disappeared-in-an-array/find-all-numbers-disappeared-in-an-array.java) |
 | [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/) | 🟢 Easy | [Java](645-set-mismatch/set-mismatch.java) |
