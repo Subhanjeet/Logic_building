@@ -1,41 +1,40 @@
-<h2><a href="https://leetcode.com/problems/two-sum">Two Sum</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given an array of integers <code>nums</code>&nbsp;and an integer <code>target</code>, return <em>indices of the two numbers such that they add up to <code>target</code></em>.</p>
+# Two Sum
 
-<p>You may assume that each input would have <strong><em>exactly</em> one solution</strong>, and you may not use the <em>same</em> element twice.</p>
+**Difficulty:** Easy
 
-<p>You can return the answer in any order.</p>
+## Problem
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+Given an array of integers `arr[]` and a target value `target`. Find indices (or elements) of two numbers such that they add up to `target`.
 
-<pre>
-<strong>Input:</strong> nums = [2,7,11,15], target = 9
-<strong>Output:</strong> [0,1]
-<strong>Explanation:</strong> Because nums[0] + nums[1] == 9, we return [0, 1].
-</pre>
+## Examples
 
-<p><strong class="example">Example 2:</strong></p>
+```
+Input: arr[] = [2, 7, 11, 15], target = 9
+Output: [0, 1]
+Explanation: arr[0] + arr[1] = 2 + 7 = 9
+```
 
-<pre>
-<strong>Input:</strong> nums = [3,2,4], target = 6
-<strong>Output:</strong> [1,2]
-</pre>
+```
+Input: arr[] = [3, 2, 4], target = 6
+Output: [1, 2]
+Explanation: arr[1] + arr[2] = 2 + 4 = 6
+```
 
-<p><strong class="example">Example 3:</strong></p>
+```
+Input: arr[] = [3, 3], target = 6
+Output: [0, 1]
+Explanation: arr[0] + arr[1] = 3 + 3 = 6
+```
 
-<pre>
-<strong>Input:</strong> nums = [3,3], target = 6
-<strong>Output:</strong> [0,1]
-</pre>
+## Constraints
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+- 2 ≤ arr.size() ≤ 10^4
+- exactly one valid answer exists
 
-<ul>
-	<li><code>2 &lt;= nums.length &lt;= 10<sup>4</sup></code></li>
-	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
-	<li><code>-10<sup>9</sup> &lt;= target &lt;= 10<sup>9</sup></code></li>
-	<li><strong>Only one valid answer exists.</strong></li>
-</ul>
+## Approach
 
-<p>&nbsp;</p>
-<strong>Follow-up:&nbsp;</strong>Can you come up with an algorithm that is less than <code>O(n<sup>2</sup>)</code><font face="monospace">&nbsp;</font>time complexity?
+use hashmap. loop through array, for each element check if (target - element) already in map. if yes return indices. if no store element with its index in map. one pass, no nested loop needed.
+
+Time: O(n)
+Space: O(n)
+
