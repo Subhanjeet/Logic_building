@@ -256,6 +256,12 @@ Only problems that have a Java solution in this repository are listed below.
 | [1927. Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/) | 🟢 Easy | [Java](1927-maximum-ascending-subarray-sum/maximum-ascending-subarray-sum.java) |
 | [2058. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | 🟢 Easy | [Java](2058-concatenation-of-array/concatenation-of-array.java) |
 
+### 🔗 Linked List
+
+| Problem | Level | Code |
+|---|---|---|
+| [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy | [Java](206-reverse-linked-list/reverse-linked-list.java) |
+
 ### 💡 Bit Manipulation
 
 | Problem | Level | Code |
