@@ -153,7 +153,7 @@ Only problems that have a Java solution in this repository are listed below.
 
 | Problem | Level | Code |
 |---|---|---|
-| [1. Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | [Java](1-Two-Sum/twoSum.java) |
+| [1. Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | [Java](1-two-sum/two-sum.java) |
 | [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | 🟢 Easy | [Java](13-roman-to-integer/roman-to-integer.java) |
 | [169. Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy | [Java](169-majority-element/majority-element.java) |
 | [383. Ransom Note](https://leetcode.com/problems/ransom-note/) | 🟢 Easy | [Java](383-ransom-note/ransom-note.java) |
@@ -226,6 +226,7 @@ Only problems that have a Java solution in this repository are listed below.
 | Problem | Level | Code |
 |---|---|---|
 | [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | 🟡 Medium | [Java](24-swap-nodes-in-pairs/swap-nodes-in-pairs.java) |
+| [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | 🔴 Hard | [Java](25-reverse-nodes-in-k-group/reverse-nodes-in-k-group.java) |
 | [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | 🟡 Medium | [Java](92-reverse-linked-list-ii/reverse-linked-list-ii.java) |
 | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy | [Java](206-reverse-linked-list/reverse-linked-list.java) |
 
