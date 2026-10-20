@@ -260,6 +260,7 @@ Only problems that have a Java solution in this repository are listed below.
 
 | Problem | Level | Code |
 |---|---|---|
+| [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | 🟡 Medium | [Java](92-reverse-linked-list-ii/reverse-linked-list-ii.java) |
 | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy | [Java](206-reverse-linked-list/reverse-linked-list.java) |
 
 ### 💡 Bit Manipulation
