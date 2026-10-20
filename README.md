@@ -221,6 +221,14 @@ Only problems that have a Java solution in this repository are listed below.
 | [1128. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | 🟢 Easy | [Java](1128-remove-all-adjacent-duplicates-in-string/remove-all-adjacent-duplicates-in-string.java) |
 | [1320. Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | 🟡 Medium | [Java](1320-remove-all-adjacent-duplicates-in-string-ii/remove-all-adjacent-duplicates-in-string-ii.java) |
 
+### 🔗 Linked List
+
+| Problem | Level | Code |
+|---|---|---|
+| [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | 🟡 Medium | [Java](24-swap-nodes-in-pairs/swap-nodes-in-pairs.java) |
+| [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | 🟡 Medium | [Java](92-reverse-linked-list-ii/reverse-linked-list-ii.java) |
+| [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy | [Java](206-reverse-linked-list/reverse-linked-list.java) |
+
 ### 🔥 Monotonic Stack
 
 | Problem | Level | Code |
@@ -255,13 +263,6 @@ Only problems that have a Java solution in this repository are listed below.
 | [1580. Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 Easy | [Java](1580-shuffle-the-array/shuffle-the-array.java) |
 | [1927. Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/) | 🟢 Easy | [Java](1927-maximum-ascending-subarray-sum/maximum-ascending-subarray-sum.java) |
 | [2058. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | 🟢 Easy | [Java](2058-concatenation-of-array/concatenation-of-array.java) |
-
-### 🔗 Linked List
-
-| Problem | Level | Code |
-|---|---|---|
-| [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | 🟡 Medium | [Java](92-reverse-linked-list-ii/reverse-linked-list-ii.java) |
-| [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy | [Java](206-reverse-linked-list/reverse-linked-list.java) |
 
 ### 💡 Bit Manipulation
 
