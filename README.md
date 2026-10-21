@@ -186,6 +186,7 @@ Only problems that have a Java solution in this repository are listed below.
 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟡 Medium | [Java](19-remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.java) |
 | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | [Java](22-Remove-Duplicates-from-Sorted-Array/Remove.java) |
 | [27. Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy | [Java](27-remove-element/remove-element.java) |
+| [61. Rotate List](https://leetcode.com/problems/rotate-list/) | 🟡 Medium | [Java](61-rotate-list/rotate-list.java) |
 | [75. Sort Colors](https://leetcode.com/problems/sort-colors/) | 🟡 Medium | [Java](75.%20Sort%20Colors/Sort-Color.java) |
 | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | 🟢 Easy | [Java](125.%20Valid%20Palindrome/Valid.java) |
 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | 🟢 Easy | [Java](141-linked-list-cycle/linked-list-cycle.java) |
