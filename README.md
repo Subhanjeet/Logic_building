@@ -231,6 +231,13 @@ Only problems that have a Java solution in this repository are listed below.
 | [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | 🟡 Medium | [Java](92-reverse-linked-list-ii/reverse-linked-list-ii.java) |
 | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy | [Java](206-reverse-linked-list/reverse-linked-list.java) |
 
+### 🔍 Binary Search
+
+| Problem | Level | Code |
+|---|---|---|
+| [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 Medium | [Java](34-find-first-and-last-position-of-element-in-sorted-array/find-first-and-last-position-of-element-in-sorted-array.java) |
+| [792. Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | [Java](792-binary-search/binary-search.java) |
+
 ### 🔥 Monotonic Stack
 
 | Problem | Level | Code |
@@ -280,12 +287,6 @@ Only problems that have a Java solution in this repository are listed below.
 | [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | 🟡 Medium | [Java](560-subarray-sum-equals-k/subarray-sum-equals-k.java) |
 | [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | 🟢 Easy | [Java](724-find-pivot-index/find-pivot-index.java) |
 | [1016. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | 🟡 Medium | [Java](1016-subarray-sums-divisible-by-k/subarray-sums-divisible-by-k.java) |
-
-### 🔍 Binary Search
-
-| Problem | Level | Code |
-|---|---|---|
-| [792. Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | [Java](792-binary-search/binary-search.java) |
 
 <!-- AUTO_DSA_END -->
 
