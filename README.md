@@ -153,7 +153,7 @@ Only problems that have a Java solution in this repository are listed below.
 
 | Problem | Level | Code |
 |---|---|---|
-| [1. Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | [Java](1-two-sum/two-sum.java) |
+| [1. Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | [Java](1-Two-Sum/twoSum.java) |
 | [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | 🟢 Easy | [Java](13-roman-to-integer/roman-to-integer.java) |
 | [169. Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy | [Java](169-majority-element/majority-element.java) |
 | [383. Ransom Note](https://leetcode.com/problems/ransom-note/) | 🟢 Easy | [Java](383-ransom-note/ransom-note.java) |
@@ -280,6 +280,12 @@ Only problems that have a Java solution in this repository are listed below.
 | [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | 🟡 Medium | [Java](560-subarray-sum-equals-k/subarray-sum-equals-k.java) |
 | [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | 🟢 Easy | [Java](724-find-pivot-index/find-pivot-index.java) |
 | [1016. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | 🟡 Medium | [Java](1016-subarray-sums-divisible-by-k/subarray-sums-divisible-by-k.java) |
+
+### 🔍 Binary Search
+
+| Problem | Level | Code |
+|---|---|---|
+| [792. Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | [Java](792-binary-search/binary-search.java) |
 
 <!-- AUTO_DSA_END -->
 
