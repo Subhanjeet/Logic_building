@@ -239,6 +239,7 @@ Only problems that have a Java solution in this repository are listed below.
 | [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 Medium | [Java](34-find-first-and-last-position-of-element-in-sorted-array/find-first-and-last-position-of-element-in-sorted-array.java) |
 | [792. Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | [Java](792-binary-search/binary-search.java) |
 | [882. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | 🟡 Medium | [Java](882-peak-index-in-a-mountain-array/peak-index-in-a-mountain-array.java) |
+| [907. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | 🟡 Medium | [Java](907-koko-eating-bananas/koko-eating-bananas.java) |
 
 ### 🔥 Monotonic Stack
 
