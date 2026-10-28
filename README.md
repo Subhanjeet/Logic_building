@@ -160,7 +160,6 @@ Only problems that have a Java solution in this repository are listed below.
 | [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | 🟢 Easy | [Java](0387-first-unique-character-in-a-string/0387-first-unique-character-in-a-string.java) |
 | [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | 🟢 Easy | [Java](448-find-all-numbers-disappeared-in-an-array/find-all-numbers-disappeared-in-an-array.java) |
 | [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/) | 🟢 Easy | [Java](645-set-mismatch/set-mismatch.java) |
-| [1297. Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | 🟢 Easy | [Java](1189-maximum-number-of-balloons/1189-maximum-number-of-balloons.java) |
 | [1482. How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | 🟢 Easy | [Java](1482-how-many-numbers-are-smaller-than-the-current-number/how-many-numbers-are-smaller-than-the-current-number.java) |
 | [4321. Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | [Java](3945.%20Digit%20Frequency%20Score/Digit.java) |
 
@@ -290,6 +289,12 @@ Only problems that have a Java solution in this repository are listed below.
 | [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | 🟡 Medium | [Java](560-subarray-sum-equals-k/subarray-sum-equals-k.java) |
 | [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | 🟢 Easy | [Java](724-find-pivot-index/find-pivot-index.java) |
 | [1016. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | 🟡 Medium | [Java](1016-subarray-sums-divisible-by-k/subarray-sums-divisible-by-k.java) |
+
+### 🧩 Other
+
+| Problem | Level | Code |
+|---|---|---|
+| [1189. maximum-number-of-balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | ⚪ Unknown | [Java](1189-maximum-number-of-balloons/1189-maximum-number-of-balloons.java) |
 
 <!-- AUTO_DSA_END -->
 
