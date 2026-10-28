@@ -24,21 +24,21 @@ class Solution {
     }
     
     // helper function
-    long fun(int[] piles, int n, int speed) {
-        long h = 0;
+    long fun(int[] piles, int n, int guess) {
+        long hour = 0;
         for (int i=0; i<n; i++) {
-            h += piles[i] / speed;
-            if (piles[i] % speed != 0) {
-                h++;
+            hour += piles[i] / guess;
+            if (piles[i] % guess != 0) {
+                hour++;
             }
         }
-        return h;
+        return hour;
     }
 
     private int getMax(int[] piles) {
         int max = 0;
-        for (int pile : piles) {
-            max = Math.max(max, pile);
+        for(int pile: piles){
+            max = Math.max(pile, max);
         }
         return max;
     }
