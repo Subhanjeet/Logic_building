@@ -160,6 +160,7 @@ Only problems that have a Java solution in this repository are listed below.
 | [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | 🟢 Easy | [Java](0387-first-unique-character-in-a-string/0387-first-unique-character-in-a-string.java) |
 | [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | 🟢 Easy | [Java](448-find-all-numbers-disappeared-in-an-array/find-all-numbers-disappeared-in-an-array.java) |
 | [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/) | 🟢 Easy | [Java](645-set-mismatch/set-mismatch.java) |
+| [1297. Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | 🟢 Easy | [Java](1189-maximum-number-of-balloons/1189-maximum-number-of-balloons.java) |
 | [1482. How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | 🟢 Easy | [Java](1482-how-many-numbers-are-smaller-than-the-current-number/how-many-numbers-are-smaller-than-the-current-number.java) |
 | [4321. Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | [Java](3945.%20Digit%20Frequency%20Score/Digit.java) |
 
@@ -236,6 +237,7 @@ Only problems that have a Java solution in this repository are listed below.
 |---|---|---|
 | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🟡 Medium | [Java](33-search-in-rotated-sorted-array/search-in-rotated-sorted-array.java) |
 | [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 Medium | [Java](34-find-first-and-last-position-of-element-in-sorted-array/find-first-and-last-position-of-element-in-sorted-array.java) |
+| [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | 🟡 Medium | [Java](74-search-a-2d-matrix/search-a-2d-matrix.java) |
 | [792. Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | [Java](792-binary-search/binary-search.java) |
 | [882. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | 🟡 Medium | [Java](882-peak-index-in-a-mountain-array/peak-index-in-a-mountain-array.java) |
 | [907. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | 🟡 Medium | [Java](907-koko-eating-bananas/koko-eating-bananas.java) |
@@ -289,12 +291,6 @@ Only problems that have a Java solution in this repository are listed below.
 | [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | 🟡 Medium | [Java](560-subarray-sum-equals-k/subarray-sum-equals-k.java) |
 | [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | 🟢 Easy | [Java](724-find-pivot-index/find-pivot-index.java) |
 | [1016. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | 🟡 Medium | [Java](1016-subarray-sums-divisible-by-k/subarray-sums-divisible-by-k.java) |
-
-### 🧩 Other
-
-| Problem | Level | Code |
-|---|---|---|
-| [1189. maximum-number-of-balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | ⚪ Unknown | [Java](1189-maximum-number-of-balloons/1189-maximum-number-of-balloons.java) |
 
 <!-- AUTO_DSA_END -->
 
