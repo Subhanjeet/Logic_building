@@ -279,6 +279,12 @@ Only problems that have a Java solution in this repository are listed below.
 | [1927. Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/) | 🟢 Easy | [Java](1927-maximum-ascending-subarray-sum/maximum-ascending-subarray-sum.java) |
 | [2058. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | 🟢 Easy | [Java](2058-concatenation-of-array/concatenation-of-array.java) |
 
+### ⚡ Heap / Priority Queue
+
+| Problem | Level | Code |
+|---|---|---|
+| [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 🟡 Medium | [Java](215-kth-largest-element-in-an-array/kth-largest-element-in-an-array.java) |
+
 ### 💡 Bit Manipulation
 
 | Problem | Level | Code |
