@@ -239,6 +239,7 @@ Only problems that have a Java solution in this repository are listed below.
 | [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 Medium | [Java](34-find-first-and-last-position-of-element-in-sorted-array/find-first-and-last-position-of-element-in-sorted-array.java) |
 | [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | 🟡 Medium | [Java](74-search-a-2d-matrix/search-a-2d-matrix.java) |
 | [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | 🟡 Medium | [Java](240-search-a-2d-matrix-ii/search-a-2d-matrix-ii.java) |
+| [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | 🟡 Medium | [Java](378-kth-smallest-element-in-a-sorted-matrix/kth-smallest-element-in-a-sorted-matrix.java) |
 | [792. Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | [Java](792-binary-search/binary-search.java) |
 | [882. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | 🟡 Medium | [Java](882-peak-index-in-a-mountain-array/peak-index-in-a-mountain-array.java) |
 | [907. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | 🟡 Medium | [Java](907-koko-eating-bananas/koko-eating-bananas.java) |
