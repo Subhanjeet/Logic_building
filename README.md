@@ -212,6 +212,7 @@ Only problems that have a Java solution in this repository are listed below.
 | [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | [Java](9-palindrome-number/palindrome-number.java) |
 | [462. Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | 🟡 Medium | [Java](462-minimum-moves-to-equal-array-elements-ii/minimum-moves-to-equal-array-elements-ii.java) |
 | [3918. Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | 🟢 Easy | [Java](3918-check-divisibility-by-digit-sum-and-product/check-divisibility-by-digit-sum-and-product.java) |
+| [4116. Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | 🟢 Easy | [Java](4116-minimum-moves-to-equal-array-elements-iii/minimum-moves-to-equal-array-elements-iii.java) |
 | [4245. Count Commas in Range](https://leetcode.com/problems/count-commas-in-range/) | 🟢 Easy | [Java](4245-count-commas-in-range/count-commas-in-range.java) |
 | [4248. Count Commas in Range II](https://leetcode.com/problems/count-commas-in-range-ii/) | 🟡 Medium | [Java](4248-count-commas-in-range-ii/count-commas-in-range-ii.java) |
 | [4256. Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/) | 🟢 Easy | [Java](4256-construct-uniform-parity-array-i/construct-uniform-parity-array-i.java) |
