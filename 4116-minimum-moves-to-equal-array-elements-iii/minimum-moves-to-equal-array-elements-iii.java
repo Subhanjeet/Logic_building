@@ -8,10 +8,10 @@ class Solution {
             if(nums[i] == max) continue;
 
             if(nums[i] < max){
-                count += nums[i] - max;
+                count += max - nums[i];
             }
         }
-        return Math.abs(count);
+        return count;
     }
     
     //helper function
